@@ -4,12 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Odin Recipes</title>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <a href="./recipes/maple_salmon.html">Maple Salmon</a>
-    <a href="./recipes/pesto_pasta.html">Pesto Pasta</a>
-    <a href="./recipes/classic_burger.html">Classic Burger</a>
+    <article class="container">
+      <h1 class="title">Odin Recipes</h1>
+      <ul class="list-container">
+        <li class="list_recipe">
+          <a href="./recipes/maple_salmon.html">
+            <img
+              src="./img/maple_salmon.jpg"
+              alt="Picture of maple salmon"
+              width="250px"
+              height="250px"
+            />
+            <p class="recipe_name">Maple Salmon</p>
+          </a>
+        </li>
+        <li class="list_recipe">
+          <a href="./recipes/pesto_pasta.html"
+            ><img
+              src="./img/pesto_pasta.jpg"
+              alt="Pesto Pasta"
+              width="250px"
+              height="250px"
+            />
+            <p class="recipe_name">Pesto Pasta</p>
+          </a>
+        </li>
+        <li class="list_recipe">
+          <a href="./recipes/classic_burger.html">
+            <img
+              src="./img/classic_burger.jpg"
+              alt="Picture of a burger"
+              width="250px"
+              height="250px"
+            />
+            <p class="recipe_name">Classic Burger</p>
+          </a>
+        </li>
+      </ul>
+    </article>
   </body>
 </html>
