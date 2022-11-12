@@ -11,7 +11,7 @@ body {
 
 img {
   object-fit: cover;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .container {
@@ -30,10 +30,6 @@ a:visited {
   color: inherit;
 }
 
-a:hover {
-  font-weight: bold;
-}
-
 .list-container {
   display: flex;
   justify-content: space-evenly;
@@ -49,6 +45,7 @@ a:hover {
 .list_recipe:hover {
   box-shadow: 5px 5px 15px #b3b3b3, -5px -5px 15px #f4f4f4;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .recipe_name {

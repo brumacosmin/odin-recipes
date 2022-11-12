@@ -1,0 +1,157 @@
+body {
+  border-top: 5px solid #e47653;
+  border-bottom: 5px solid #e47653;
+}
+
+.grid-col2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px 50px;
+  width: 1200px;
+  margin: 40px auto;
+}
+
+p {
+  font-size: 18px;
+}
+
+.recipe-name {
+  color: #e47653;
+  grid-column: 1/-1;
+}
+
+/* ---------------IMAGE & RATING START-------- */
+
+.recipe-image {
+  width: 470px;
+  height: 270px;
+  grid-column: 1/2;
+  margin-bottom: 15px;
+}
+
+.rating {
+  display: flex;
+}
+
+.rating svg {
+  stroke: none;
+  fill: #ffd335;
+  margin-right: 5px;
+}
+
+.rating svg:last-child {
+  margin-right: 15px;
+}
+
+/* ---------------IMAGE & RATING END-------- */
+
+/* ---------------DESCRIPTION SECTION START-------- */
+
+.description h2 {
+  margin-bottom: 15px;
+}
+
+.description-paragraph {
+  background-color: rgba(244, 132, 51, 0.16);
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.description {
+  width: 550px;
+  border-bottom: 1px solid #e47653;
+}
+
+.description li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.description li:last-child {
+  margin-bottom: 0;
+}
+
+svg {
+  width: 17px;
+  height: 17px;
+  fill: #e47653;
+  margin-right: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.social {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.social svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* ---------------DESCRIPTION SECTION END-------- */
+
+/* ---------------INGREDIENTS SECTION START-------- */
+
+.ingredients {
+  background-color: rgba(217, 217, 217, 0.14);
+  border-radius: 10px;
+  padding: 20px 10px;
+  align-self: flex-start;
+}
+
+.ingredients h3 {
+  margin-bottom: 15px;
+  font-size: 23px;
+}
+
+.ingredients li {
+  list-style-type: none;
+  margin-left: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.ingredients ul li::before {
+  content: "•";
+  color: #e47653;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+/* ---------------INGREDIENTS SECTION END-------- */
+
+/* ---------------STEPS SECTION START-------- */
+.steps h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 23px;
+}
+
+.steps h4 {
+  display: inline;
+  border-bottom: 3px solid #e47653;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 19px;
+}
+
+.steps p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.steps ol {
+  margin-left: 20px;
+}
+
+/* ---------------STEPS SECTION END-------- */
