@@ -15,10 +15,30 @@ p {
   font-size: 18px;
 }
 
-.recipe-name {
+.flex-title-btn-home {
   color: #e47653;
   grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+/* ---------------BACK HOME BTN START-------- */
+.btn-home {
+  background-color: rgba(228, 118, 83, 0.85);
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 13px 16px;
+}
+
+.btn-home:hover {
+  cursor: pointer;
+  background-color: #fa8b6a;
+}
+
+/* ---------------BACK HOME BTN END-------- */
 
 /* ---------------IMAGE & RATING START-------- */
 
