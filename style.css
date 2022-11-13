@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
 }
 .title {
-  font-size: 35px;
+  font-size: 30px;
   margin: 50px 0;
   color: #e47653;
   text-align: left;
@@ -23,13 +23,13 @@ body {
 img {
   object-fit: cover;
   border-radius: 10px;
-  width: 372px;
-  height: 275px;
+  width: 302px;
+  height: 205px;
 }
 
 .container li {
-  width: 408px;
-  height: 383px;
+  width: 338px;
+  height: 313px;
 }
 
 .list-container {
@@ -41,19 +41,19 @@ img {
 /* ----------------------UNDER IMAGE  START--------------------- */
 .recipe_name {
   margin: 8px 0 13px 0; /*TRBL */
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .rating svg {
   stroke: none;
   fill: #ffd335;
-  width: 20px;
-  height: 19px;
+  width: 15px;
+  height: 14px;
 }
 
 .flex-name-btns svg {
-  width: 28px;
-  height: 28px;
+  width: 20px;
+  height: 20px;
   fill: #e47653;
   stroke: none;
 }
